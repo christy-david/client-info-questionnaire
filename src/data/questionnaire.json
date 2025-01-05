@@ -1,0 +1,629 @@
+[
+  {
+    "title": "CLIENT FILE NUMBER",
+    "questions": [
+      {
+        "question": "If you have been given a client file number by your Migration agent, record it here",
+        "field_type": "input (text)",
+        "options": []
+      }
+    ]
+  },
+  {
+    "title": "Who is Completing this Questionnaire?",
+    "questions": [
+      {
+        "question": "Are you or will you be the Main Applicant in any application?",
+        "field_type": "input (radio)",
+        "options": ["Yes", "No"]
+      }
+    ]
+  },
+  {
+    "title": "MAIN APPLICANT'S INTENTIONS",
+    "questions": [
+      {
+        "question": "What is the main purpose that are you seeking to apply for an Australian Visa?",
+        "field_type": "select",
+        "options": [
+          "To visit Australia",
+          "Study in Australia",
+          "Work in Australia",
+          "Participate in a sports competition or training",
+          "Training or research",
+          "To own a business or make investments",
+          "To join a family member in Australia",
+          "To be in a relationship with an Australian",
+          "Live in Australia",
+          "Other"
+        ]
+      },
+      {
+        "question": "What length of time are you seeking to be in Australia?",
+        "field_type": "select",
+        "options": [
+          "Temporary: upto 3 months",
+          "Temporary: upto 6 months",
+          "Temporary: upto 12 months",
+          "Temporary: more than 12 months",
+          "Permanently"
+        ]
+      },
+      {
+        "question": "Do you have any family members who will be included as part of this application?",
+        "field_type": "input (radio)",
+        "options": ["Yes", "No"]
+      },
+      {
+        "question": "Is anyone included in this application required to complete a Form 80 as part of this application?",
+        "field_type": "input (radio)",
+        "options": ["Yes", "No", "Don't know"]
+      }
+    ]
+  },
+  {
+    "title": "MAIN APPLICANT'S DETAILS",
+    "questions": [
+      {
+        "question": "Prefix/Title",
+        "field_type": "select",
+        "options": ["Mr.", "Mrs.", "Ms.", "Dr."]
+      },
+      {
+        "question": "Gender",
+        "field_type": "select",
+        "options": ["Male", "Female", "Other"]
+      },
+      {
+        "question": "Family name",
+        "field_type": "input (text)",
+        "options": []
+      },
+      {
+        "question": "Date of birth",
+        "field_type": "input (date)",
+        "options": []
+      },
+      {
+        "question": "Birth country",
+        "field_type": "input (text)",
+        "options": []
+      },
+      {
+        "question": "Martial status",
+        "field_type": "select",
+        "options": [
+          "De Facto Relationship",
+          "Divorced",
+          "Engaged",
+          "Married",
+          "Never married or been in a De Facto Relationship",
+          "Seperated",
+          "Widowed",
+          "Interdependant/ Same Sex"
+        ]
+      },
+      {
+        "question": "Given names",
+        "field_type": "input (text)",
+        "options": []
+      },
+      {
+        "question": "Preferred names",
+        "field_type": "input (text)",
+        "options": []
+      },
+      {
+        "question": "Birth location",
+        "field_type": "input (text)",
+        "options": []
+      },
+      {
+        "question": "State/ Province",
+        "field_type": "input (text)",
+        "options": []
+      }
+    ]
+  },
+  {
+    "title": "Other Personal Particulars",
+    "questions": [
+      {
+        "question": "Have you ever had or been known by any other name or alias, or had a different name spelling, or ever had a different date of birth?",
+        "field_type": "input (radio)",
+        "options": ["Yes", "No"]
+      },
+      {
+        "question": "Do you use a Chinese Commercial Code for your name?",
+        "field_type": "input (radio)",
+        "options": ["Yes", "No"]
+      },
+      {
+        "question": "Are you of Arabic or Russian descent?",
+        "field_type": "input (radio)",
+        "options": ["Yes", "No"]
+      }
+    ]
+  },
+  {
+    "title": "Citizenship Details",
+    "questions": [
+      {
+        "question": "Are you currently or have you been a citizen of any country?",
+        "field_type": "input (radio)",
+        "options": ["Yes", "No"]
+      }
+    ]
+  },
+  {
+    "title": "Identity Document/ Number",
+    "questions": [
+      {
+        "question": "Do you currently have, or have you ever had, any national identity documents or numbers (including birth registration numbers, social security cards etc)?",
+        "field_type": "input (radio)",
+        "options": ["Yes", "No"]
+      }
+    ]
+  },
+  {
+    "title": "Employment Details",
+    "questions": [
+      {
+        "question": "Are you currently employed in a paid position?",
+        "field_type": "input (radio)",
+        "options": ["Yes", "No"]
+      }
+    ]
+  },
+  {
+    "title": "Education",
+    "questions": [
+      {
+        "question": "Have you ever undertaken, completed, or enrolled in any form of study, education or occupational training?",
+        "field_type": "input (radio)",
+        "options": ["Yes", "No"]
+      }
+    ]
+  },
+  {
+    "title": "Occupational Registration/ Licensing/ Professional Membership",
+    "questions": [
+      {
+        "question": "Do you hold any occupational registration, licensing or professional membership?",
+        "field_type": "input (radio)",
+        "options": ["Yes", "No"]
+      }
+    ]
+  },
+  {
+    "title": "Skills Assessments",
+    "questions": [
+      {
+        "question": "Have you ever applied for a Skills Assessment from an Australian Skills Assessing body?",
+        "field_type": "input (radio)",
+        "options": ["Yes", "No"]
+      }
+    ]
+  },
+  {
+    "title": "Language Skills",
+    "questions": [
+      {
+        "question": "Have you undertaken an English language proficiency test in the last 36 months?",
+        "field_type": "input (radio)",
+        "options": ["Yes", "No"]
+      },
+      {
+        "question": "Is the English language your first language?",
+        "field_type": "input (radio)",
+        "options": ["Yes", "No"]
+      }
+    ]
+  },
+  {
+    "title": "Your Parents",
+    "questions": [
+      {
+        "question": "Do you know details of your parents or step-parents? Yes No (please include details even",
+        "field_type": "input (radio)",
+        "options": ["Yes", "No"]
+      }
+    ]
+  },
+  {
+    "title": "Your Siblings (including Step-Siblings and Half-Siblings)",
+    "questions": [
+      {
+        "question": "Do you have any brothers, sisters, step-brothers, step-sisters, half-sisters, half-brothers or adopted siblings?",
+        "field_type": "input (radio)",
+        "options": ["Yes", "No"]
+      }
+    ]
+  },
+  {
+    "title": "CHILDREN",
+    "questions": [
+      {
+        "question": "Do you or your Spouse/Partner have any Children, Step Children or Adoptive Children?",
+        "field_type": "input (radio)",
+        "options": ["Yes", "No"]
+      }
+    ]
+  },
+  {
+    "title": "DEPENDANT FAMILY MEMBERS",
+    "questions": [
+      {
+        "question": "Do you or your Spouse/Partner have any other Dependant family members?",
+        "field_type": "input (radio)",
+        "options": ["Yes", "No"]
+      }
+    ]
+  },
+  {
+    "title": "AUSTRALIAN EMPLOYMENT QUESTIONS",
+    "questions": [
+      {
+        "question": "Are you being sponsored by or will you be working for an Australian Business or Organisation?",
+        "field_type": "input (radio)",
+        "options": ["Yes", "No"]
+      }
+    ]
+  },
+  {
+    "title": "QUESTIONS FOR ALL INCLUDED APPLICANTS",
+    "title_description": "For you and everyone who is to be included in this application, please answer the following questions",
+    "sub_sections": [
+      {
+        "title": "Addresses",
+        "questions": [
+          {
+            "question": "Does every applicant who is to be included in this application live at your current residential address?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Does every applicant who is to be included in this application currently have the same postal address?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          }
+        ]
+      },
+      {
+        "title": "Visas",
+        "questions": [
+          {
+            "question": "Has anyone who is to be included in this application previously applied for or held an Australian Visa?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          }
+        ]
+      },
+      {
+        "title": "Travel to Australia",
+        "questions": [
+          {
+            "question": "Is anyone who is to be included in this application currently in Australia?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Has anyone who is to be included in this application previously travelled to or been in Australia?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Does anyone who is to be included in this application have any planned travel to Australia?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Do you know details of the places any applicant will stay or be able to be contacted during their time in Australia?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          }
+        ]
+      },
+      {
+        "title": "Travel to Other Countries",
+        "questions": [
+          {
+            "question": "Has anyone who is to be included in this application travelled to any country other than Australia in the last 10 years?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          }
+        ]
+      },
+      {
+        "title": "Residency Rights",
+        "questions": [
+          {
+            "question": "Does anyone who is to be included in this application have the right to permanently reside in any country of which they are not currently a citizen?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          }
+        ]
+      },
+      {
+        "title": "Health Questions",
+        "title_description": "For you and everyone who is to be included in this application, please answer the following questions regarding health",
+        "questions": [
+          {
+            "question": "Has anyone who is to be included in this application undertaken a health examination for an Australian visa in the last 12 months?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Does any applicant intend to enter a hospital or health care facility (including nursing home) while in Australia?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Does any applicant intend to work as, or study, or train to be a doctor, dentist, nurse or paramedic while in Australia?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Does any applicant intend to work as, or be a trainee at a child care centre (including preschools and creches) while in Australia?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Does any applicant intend to be in a classroom situation for more than 3 months (as a student, teacher, lecturer, or observer, etc.) in Australia?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Has any applicant ever had or currently have tuberculosis or had a chest X-ray which showed an abnormality?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Has any applicant ever been in close contact at home or at work with a person who has or had tuberculosis?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Does any applicant have any of the following health conditions that may incur medical costs, require treatment or medical follow up?",
+            "field_type": "input (radio)",
+            "options": [
+              {
+                "question": "Blood Disorder",
+                "options": ["Yes", "No"]
+              },
+              {
+                "question": "Cancer",
+                "options": ["Yes", "No"]
+              },
+              {
+                "question": "Heart Condition",
+                "options": ["Yes", "No"]
+              },
+              {
+                "question": "Hepatitis B or C",
+                "options": ["Yes", "No"]
+              },
+              {
+                "question": "Liver Disease",
+                "options": ["Yes", "No"]
+              },
+              {
+                "question": "Kidney Disease",
+                "options": ["Yes", "No"]
+              },
+              {
+                "question": "Mental illness",
+                "options": ["Yes", "No"]
+              },
+              {
+                "question": "Pregnancy",
+                "options": ["Yes", "No"]
+              },
+              {
+                "question": "Respiratory illness",
+                "options": ["Yes", "No"]
+              },
+              {
+                "question": "HIV Infection",
+                "options": ["Yes", "No"]
+              },
+              {
+                "question": "Diabetes",
+                "options": ["Yes", "No"]
+              },
+              {
+                "question": "Disability",
+                "options": ["Yes", "No"]
+              },
+              {
+                "question": "Other",
+                "options": ["Yes", "No"]
+              }
+            ]
+          },
+          {
+            "question": "Does any applicant require assistance with mobility or care due to a health condition?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          }
+        ]
+      },
+      {
+        "title": "Character Issues",
+        "title_description": "For you and everyone who is to be included in this application, please answer the following questions regarding character",
+        "questions": [
+          {
+            "question": "Has anyone who is to be included in this application applied for a Police Clearance Certificate in the last 12 months?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Has anyone who is to be included in this application previously been in Immigration Detention?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Has any applicant been convicted of a crime or offence* in any country (including any conviction removed from official records)?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Has any applicant been charged with any offence* in any country that is currently awaiting legal action?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Has any applicant ever been the subject of a domestic violence or family violence order, or any other order, of a tribunal or cour or other similiar authority for the personal protection of another person?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Has any applicant who is to be included in this application been the subject of an arrest warrant or Interpol Notice?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Has any applicant been found guilty of a sexually based offence involving a child (including where no conviction was recorded)?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Has any applicant who is to be included in this application ever been named on a sex offender register?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Has any applicant been confined in a prison or psychiatric institution by order of a court in relation to criminal proceeedings?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Has any applicant been acquitted of any offence* on the grounds of mental illness, insanity or unsoundness of mind?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Has any applicant who is to be included in this application ever been found by a court not fit to plead?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Has any applicant ever provided any information or a document to the Australian Immigration or Customs authorities which was wrong, incorrect, false or misleading?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Has any applicant been refused a visa or entry permit for any country (including Australia)?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Has any applicant ever been in any country (including Australia) and not complied with visa conditions or departed outside their authorised period of stay?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Has any applicant been removed or deported from any country (including Australia)?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Has any applicant left any country to avoid being removed or deported from that country (including Australia)?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Has any applicant been excluded from asked to leave any country (including Australia)?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Has any applicant been refused Citizenship of any country for any reason?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Has any applicant been charged with, or indicted for: genocide, war crimes, crimes against humanity, torture, slavery, or any other crime that is otherwise of a serious international concern?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Has any applicant been directly or indirectly involved in, or associated with, any activities that would represent a risk to Australian national security or any other country?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Does any applicant have an outstanding debt to the Australian Government or any public authority in any other country?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Has any applicant been involved in any activity or been convicted of any offence relating to the illegal movement of people?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Has any applicant been associated with a person, group or organisation that has been/is involved in criminal conduct?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Has any applicant been associated with an organisation engaged in violence, or been involved in an act of violence in any country (including Australia)?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Has any applicant been undergone any military/paramilitary training, been trained in weapons/ explosives or in the manufacture of chemical/ biological products?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Has any applicant ever served in a military force, police force, state sponsored militia, private militia, secret police or intelligence agency?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          },
+          {
+            "question": "Has any person included in this application made or offered to make a payment or provide another benefit of any kind to another person or entity in return for the sponsorship, nomination or support for an Australian visa or engaged in any other action which could constitute a breach of section 245AS(1) of the Migration Act?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          }
+        ]
+      },
+      {
+        "title": "Dependants who are Not Included",
+        "questions": [
+          {
+            "question": "Do you have any Dependant (Spouse/Partner, Dependent Child or Dependent Family Member) who is not going to be included in this application?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          }
+        ]
+      },
+      {
+        "title": "Contacts in Australia",
+        "questions": [
+          {
+            "question": "Does anyone who is to be included in this application who is over the age of 16 have any personal contacts in Australia that have not already been listed previously in this Questionnaire?",
+            "field_type": "input (radio)",
+            "options": ["Yes", "No"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "FINISH",
+    "questions": [
+      {
+        "question": "Have you completed all the required questions?",
+        "field_type": "input (radio)",
+        "options": ["Yes", "No"]
+      },
+      {
+        "question": "Is all the information you have provided in this Questionnaire true, complete and correct?",
+        "field_type": "input (radio)",
+        "options": ["Yes", "No"]
+      }
+    ]
+  }
+]
