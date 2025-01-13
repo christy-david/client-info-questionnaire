@@ -302,7 +302,9 @@ const CitizenshipForm = () => {
               citizenship.passportDetails.map((passport) => (
                 <div key={passport.id} className='space-y-4'>
                   <h4 className='font-semibold'>
-                    Insert details of all passports or travel documents held for this country: (Note: If a passport is re-issued record each issue as a seperate entry)
+                    Insert details of all passports or travel documents held for
+                    this country: (Note: If a passport is re-issued record each
+                    issue as a seperate entry)
                   </h4>
 
                   <div className='border p-4 rounded-md shadow-sm space-y-6'>
@@ -418,7 +420,7 @@ const CitizenshipForm = () => {
                         }
                         className='mt-2 p-3 border border-gray-300 rounded w-full'
                       >
-                        <option value=''>Select nationality</option>
+                        <option value=''>Select...</option>
                         {countries.map((country) => (
                           <option key={country.code} value={country.code}>
                             {country.name}
