@@ -9,6 +9,8 @@ import aliasReducer from "./aliasSlice"
 import chineseCodeReducer from "./chineseCodeSlice"
 import descentReducer from "./descentSlice"
 import citizenshipReducer from "./citizenshipSlice"
+import identityDocumentReducer from "./identityDocumentSlice"
+import employmentDetailsReducer from "./employmentDetailsSlice"
 
 export const store = configureStore({
   reducer: {
@@ -20,5 +22,7 @@ export const store = configureStore({
     chineseCode: chineseCodeReducer,
     descent: descentReducer,
     citizenship: citizenshipReducer,
+    identityDocument: identityDocumentReducer,
+    employmentDetails: employmentDetailsReducer,
   },
 })
