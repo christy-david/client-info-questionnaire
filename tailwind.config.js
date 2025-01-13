@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        dm_sans: ["DM Sans", "serif"],
+        "dm-sans": ["DM Sans", "serif"],
       },
     },
   },
