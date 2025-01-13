@@ -56,127 +56,136 @@ const EmploymentDetailsForm = () => {
       {/* Dynamic Employment Details */}
       {isEmployed !== null && (
         <div className='space-y-6'>
-          {employmentDetails.map((employment, index) => (
-            <div
-              key={index}
-              className='border p-4 rounded-md shadow-sm space-y-4'
-            >
-              {/* Date From */}
-              <div>
-                <label className='block text-sm font-medium text-gray-700'>
-                  Date From
-                </label>
-                <input
-                  type='date'
-                  value={employment.fromDate}
-                  onChange={(e) =>
-                    handleFieldChange(index, "fromDate", e.target.value)
-                  }
-                  className='mt-1 block w-full rounded-md border border-gray-300 p-2'
-                />
-              </div>
+          <div>
+            <h4 className='font-medium mb-4'>
+              Provide details of all of your employment and unemployment since
+              birth
+            </h4>
 
-              {/* Date To */}
-              <div>
-                <label className='block text-sm font-medium text-gray-700'>
-                  Date To
-                </label>
-                <input
-                  type='date'
-                  value={employment.toDate}
-                  onChange={(e) =>
-                    handleFieldChange(index, "toDate", e.target.value)
-                  }
-                  className='mt-1 block w-full rounded-md border border-gray-300 p-2'
-                />
-              </div>
-
-              {/* Status */}
-              <div>
-                <label className='block text-sm font-medium text-gray-700'>
-                  Status
-                </label>
-                <select
-                  value={employment.status}
-                  onChange={(e) =>
-                    handleFieldChange(index, "status", e.target.value)
-                  }
-                  className='mt-1 block w-full rounded-md border border-gray-300 p-2'
+            <div className='space-y-6'>
+              {employmentDetails.map((employment, index) => (
+                <div
+                  key={index}
+                  className='border p-4 rounded-md shadow-sm space-y-4'
                 >
-                  <option value='' disabled>
-                    Select a status
-                  </option>
-                  <option value='Employed'>Employed</option>
-                  <option value='Student'>Student</option>
-                  <option value='Retired'>Retired</option>
-                  <option value='Self-employed'>Self-employed</option>
-                  <option value='Unemployed'>Unemployed</option>
-                  <option value='Work Experience/Internships'>
-                    Work Experience/Internships
-                  </option>
-                  <option value='Unpaid Employment/Volunteer'>
-                    Unpaid Employment/Volunteer
-                  </option>
-                </select>
-              </div>
+                  {/* Date From */}
+                  <div>
+                    <label className='block text-sm font-medium text-gray-700'>
+                      Date From
+                    </label>
+                    <input
+                      type='date'
+                      value={employment.fromDate}
+                      onChange={(e) =>
+                        handleFieldChange(index, "fromDate", e.target.value)
+                      }
+                      className='mt-1 block w-full rounded-md border border-gray-300 p-2'
+                    />
+                  </div>
 
-              {/* Position/ Occupation */}
-              <div>
-                <label className='block text-sm font-medium text-gray-700'>
-                  Your Position/ Occupation
-                </label>
-                <input
-                  type='text'
-                  value={employment.position}
-                  onChange={(e) =>
-                    handleFieldChange(index, "position", e.target.value)
-                  }
-                  className='mt-1 block w-full rounded-md border border-gray-300 p-2'
-                />
-              </div>
+                  {/* Date To */}
+                  <div>
+                    <label className='block text-sm font-medium text-gray-700'>
+                      Date To
+                    </label>
+                    <input
+                      type='date'
+                      value={employment.toDate}
+                      onChange={(e) =>
+                        handleFieldChange(index, "toDate", e.target.value)
+                      }
+                      className='mt-1 block w-full rounded-md border border-gray-300 p-2'
+                    />
+                  </div>
 
-              {/* Country */}
-              <div>
-                <label className='block text-sm font-medium text-gray-700'>
-                  Country
-                </label>
-                <select
-                  value={employment.country}
-                  onChange={(e) =>
-                    handleFieldChange(index, "country", e.target.value)
-                  }
-                  className='mt-1 block w-full rounded-md border border-gray-300 p-2'
-                >
-                  <option value='' disabled>
-                    Select a country
-                  </option>
-                  {countries.map((country) => (
-                    <option key={country.code} value={country.code}>
-                      {country.name}
-                    </option>
-                  ))}
-                </select>
-              </div>
+                  {/* Status */}
+                  <div>
+                    <label className='block text-sm font-medium text-gray-700'>
+                      Status
+                    </label>
+                    <select
+                      value={employment.status}
+                      onChange={(e) =>
+                        handleFieldChange(index, "status", e.target.value)
+                      }
+                      className='mt-1 block w-full rounded-md border border-gray-300 p-2'
+                    >
+                      <option value='' disabled>
+                        Select a status
+                      </option>
+                      <option value='Employed'>Employed</option>
+                      <option value='Student'>Student</option>
+                      <option value='Retired'>Retired</option>
+                      <option value='Self-employed'>Self-employed</option>
+                      <option value='Unemployed'>Unemployed</option>
+                      <option value='Work Experience/Internships'>
+                        Work Experience/Internships
+                      </option>
+                      <option value='Unpaid Employment/Volunteer'>
+                        Unpaid Employment/Volunteer
+                      </option>
+                    </select>
+                  </div>
 
-              {/* Remove Button */}
-              {employmentDetails.length > 1 && (
-                <button
-                  type='button'
-                  onClick={() => handleRemoveEmployment(index)}
-                  className='text-red-500 hover:underline text-sm'
-                >
-                  Delete
-                </button>
-              )}
+                  {/* Position/ Occupation */}
+                  <div>
+                    <label className='block text-sm font-medium text-gray-700'>
+                      Your Position/ Occupation
+                    </label>
+                    <input
+                      type='text'
+                      value={employment.position}
+                      onChange={(e) =>
+                        handleFieldChange(index, "position", e.target.value)
+                      }
+                      className='mt-1 block w-full rounded-md border border-gray-300 p-2'
+                    />
+                  </div>
+
+                  {/* Country */}
+                  <div>
+                    <label className='block text-sm font-medium text-gray-700'>
+                      Country
+                    </label>
+                    <select
+                      value={employment.country}
+                      onChange={(e) =>
+                        handleFieldChange(index, "country", e.target.value)
+                      }
+                      className='mt-1 block w-full rounded-md border border-gray-300 p-2'
+                    >
+                      <option value='' disabled>
+                        Select a country
+                      </option>
+                      {countries.map((country) => (
+                        <option key={country.code} value={country.code}>
+                          {country.name}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+
+                  {/* Remove Button */}
+                  {employmentDetails.length > 1 && (
+                    <button
+                      type='button'
+                      onClick={() => handleRemoveEmployment(index)}
+                      className='text-red-500 hover:underline text-sm'
+                    >
+                      Delete
+                    </button>
+                  )}
+                </div>
+              ))}
             </div>
-          ))}
+          </div>
 
           <div>
             <span className='mr-2'>Click to add employment history:</span>
             <button
               type='button'
               onClick={handleAddEmployment}
-              className='mt-4 text-green-600'
+              className='mt-4 text-green-600 hover:underline'
             >
               + Add
             </button>
