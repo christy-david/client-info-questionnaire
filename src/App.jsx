@@ -22,11 +22,11 @@ const App = () => {
         <div className='relative px-4 py-12 bg-white shadow-lg rounded-lg sm:p-10'>
           {/* Company Logo */}
           <div className='text-center mb-12'>
-            {/* <img
+            <img
               src='/logo.png'
               alt='Dew Drops Career Solutions'
-              className='mx-auto h-32 w-auto mb-6'
-            /> */}
+              className='mx-auto h-32 w-auto mb-12'
+            />
             {/* <h1 className='text-4xl font-semibold text-gray-800 mb-6'>
               Dew Drops Career Solutions
             </h1> */}
