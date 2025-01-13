@@ -57,11 +57,11 @@ const MainApplicantDetails = () => {
     <div className='space-y-4'>
       <h3 className='text-xl font-semibold'>Main Applicant&apos;s Details</h3>
 
-      {/* Prefix / Title */}
+      {/* Prefix/ Title */}
       <div>
         <p className='font-medium mb-4'>Insert your personal details</p>
         <label className='block font-medium text-gray-700'>
-          Prefix / Title
+          Prefix/ Title
         </label>
         <select
           value={prefix}
@@ -175,7 +175,7 @@ const MainApplicantDetails = () => {
           />
           <input
             type='text'
-            placeholder='City / Town of Birth'
+            placeholder='City/ Town of Birth'
             value={birthLocationCity}
             onChange={(e) =>
               handleFieldChange(setBirthLocationCity, e.target.value)
@@ -195,7 +195,7 @@ const MainApplicantDetails = () => {
         )}
       </div>
 
-      {/* State / Province */}
+      {/* State/ Province */}
       <div>
         <label className='block font-medium text-gray-700'>
           State/Province
@@ -234,7 +234,7 @@ const MainApplicantDetails = () => {
       {/* Marital Status */}
       <div>
         <p className='font-medium my-4'>
-          What is your current marital / relationship status?
+          What is your current marital/ relationship status?
         </p>
         <label className='block font-medium text-gray-700'>
           Marital Status
