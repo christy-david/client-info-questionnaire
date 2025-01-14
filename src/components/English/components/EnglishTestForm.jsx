@@ -55,7 +55,7 @@ const EnglishTestForm = () => {
       {/* Dynamic English Test Details */}
       {hasTakenTest && (
         <div className='space-y-6'>
-          <div>
+          <div className="space-y-6">
             <h4 className="mb-4">
               Insert details of all official English language skills tests that
               you have undertaken
@@ -188,7 +188,7 @@ const EnglishTestForm = () => {
                     onClick={() => handleRemoveTest(index)}
                     className='text-red-500 hover:underline text-sm mt-2'
                   >
-                    Remove
+                    Delete
                   </button>
                 )}
               </div>
