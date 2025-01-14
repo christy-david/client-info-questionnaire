@@ -7,6 +7,8 @@ import QuestionnaireCompleterForm from "./components/QuestionnaireCompleterForm"
 import PersonalParticulars from "./components/PersonalParticulars"
 import IdentityDocumentForm from "./components/IdentityDocumentForm"
 import EmploymentDetailsForm from "./components/EmploymentDetailsForm"
+import EducationForm from "./components/EducationForm"
+import English from "./components/English"
 
 const App = () => {
   const state = useSelector((state) => state)
@@ -222,6 +224,8 @@ const App = () => {
             <CitizenshipForm />
             <IdentityDocumentForm />
             <EmploymentDetailsForm />
+            <EducationForm />
+            <English/>
             <button
               type='submit'
               className='w-full inline-flex justify-center py-2 px-4 border border-transparent shadow-sm rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none uppercase font-bold'

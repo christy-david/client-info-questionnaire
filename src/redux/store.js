@@ -11,6 +11,9 @@ import descentReducer from "./descentSlice"
 import citizenshipReducer from "./citizenshipSlice"
 import identityDocumentReducer from "./identityDocumentSlice"
 import employmentDetailsReducer from "./employmentDetailsSlice"
+import educationReducer from "./educationSlice"
+import englishTestReducer from "./englishTestSlice"
+import languageProficiencyReducer from "./languageProficiencySlice"
 
 export const store = configureStore({
   reducer: {
@@ -24,5 +27,8 @@ export const store = configureStore({
     citizenship: citizenshipReducer,
     identityDocument: identityDocumentReducer,
     employmentDetails: employmentDetailsReducer,
+    education: educationReducer,
+    englishTest: englishTestReducer,
+    languageProficiency: languageProficiencyReducer,
   },
 })
