@@ -26,11 +26,13 @@ const App = () => {
         <div className='relative px-4 py-12 bg-white shadow-lg rounded-lg sm:p-10'>
           {/* Company Logo */}
           <div className='text-center mb-12'>
-            <img
-              src='/logo.png'
-              alt='Dew Drops Career Solutions'
-              className='mx-auto h-32 w-auto mb-12'
-            />
+            <a href='https://dewdropscareer.com/' target='_blank'>
+              <img
+                src='/logo.png'
+                alt='Dew Drops Career Solutions'
+                className='mx-auto h-32 w-auto mb-12'
+              />
+            </a>
             {/* <h1 className='text-4xl font-semibold text-gray-800 mb-6'>
               Dew Drops Career Solutions
             </h1> */}
@@ -177,7 +179,7 @@ const App = () => {
             {/* <h2 className='text-lg font-semibold mb-2'>
               
             </h2> */}
-            <h3 className='text-md font-semibold mb-1'>
+            <h3 className='text-md font-semibold mb-1 text-red-500'>
               Instructions (PLEASE READ CAREFULLY)
             </h3>
             <p className='text-gray-700 mb-2'>
@@ -225,7 +227,7 @@ const App = () => {
             <IdentityDocumentForm />
             <EmploymentDetailsForm />
             <EducationForm />
-            <English/>
+            <English />
             <button
               type='submit'
               className='w-full inline-flex justify-center py-2 px-4 border border-transparent shadow-sm rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none uppercase font-bold'
