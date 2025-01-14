@@ -21,7 +21,7 @@ const EducationForm = () => {
 
   return (
     <div className='space-y-6'>
-      <h3 className='text-lg font-semibold'>Education</h3>
+      <h3 className='text-xl font-semibold'>Education</h3>
 
       {/* Main Question */}
       <div>

@@ -20,7 +20,7 @@ const EmploymentDetailsForm = () => {
 
   return (
     <div className='space-y-6'>
-      <h3 className='text-lg font-semibold'>Employment Details</h3>
+      <h3 className='text-xl font-semibold'>Employment Details</h3>
 
       {/* Main Question */}
       <div>
